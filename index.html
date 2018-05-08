@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="utf-8">
+    <title>Wycena Nieruchomości</title>
+    
+   
+     <link href="bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" rel="stylesheet">
+     <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+	 <link rel="stylesheet" type="text/css" href="font/css/font-awesome.min.css">
+
+     <link href="style.css" rel ="stylesheet" type="text/css">
+
+ 
+    <head>
+
+<body>	
+<header  id="nav2" >
+  <a href="index.html" id="logo"></a>
+  <nav>
+    <a href="#" id="menu-icon"></a>
+    <ul>
+      <li><a href="#omnie">O mnie</a></li>
+      <li><a href="#wyceny">Wyceny</a></li>
+      <li><a href="#mapka">Mapa</a></li>
+      <li><a href="#kontakt">Kontakt</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="first">
+  <div class="b1">
+    <div class="in1">
+      <h1>WYCENA NIERUCHOMOŚCI <br>Ewa Rusztyn</h1>
+      <a class="btn" href="#omnie">ZACZYNAJMY</a>
+    </div>
+  </div>
+</section>
+
+
+<section class="second" >
+<h2 class="text-center" id="omnie">Ewa Rusztyn</h2>
+  <div class="container" >
+    <div class="row">
+     <img src="img/ewa.jpg">
+      <p>   
+      Lorem ipsum dolor sit amet, te soluta imperdiet pri. Id duo quem percipit, est ad possim labores. Ludus urbanitas eu est. Ad pro cibo consectetuer. Doming noluisse ex sea. Id est putant vivendum, ei paulo solmnesarchum ne. Nam falli viris nominavi an, pri aperiam oblique ne. Eos ut tamquam diceret, ius brute mundi volumus eu, id dicta regione has. Mea perfecto consequat deseruisse ea. Te duo minim tacimates scriptorem. Alia duis pertinax ut est, sumo sanctus tibique te sea. Sint meis delenit sea ex. Ei mei illud ponderum, laudem ceteros iracundia cum cu. Sea ei vide augue postulant, sonet altera dolores ea ius. Id per sanctus inimicus mediocritatem, ut erant blandit repudiandae sed. Dicant aperiam vulputate et vix. Eum laoreet persecuti ad, viderer prodesset has at. No eam quis agam, quo omnis ridens ne, cu duo falli gloriatur conclusionemque.et sea, sed aperiri forensibus 
+
+          </p>
+  </div>
+    </div>
+ 
+</section>
+
+<section class="third">
+  <h2 class="text-center" id="wyceny">Moje usługi</h2>
+  <div class="container">
+  <div class="row">
+    <div class="col-md-6">
+    <i class="fa fa-home"></i>
+    <h4>Nieruchomości</h4>
+      <p class="uslugi">est, sumo sanctus tibique te sea. Sint meis delenit sea ex. Ei mei illud ponderum, laudem ceteros iracundia cum cu. Sea ei vide augue postulant, sonet altera dolores ea ius. Id per sanctus inimicus mediocritatem, ut erant blandit repudiandae sed. Dicant aperiam vulputate et vix. Eum laoreet persecuti ad, viderer prodesset has at. No eam quis agam, quo omnis ridens ne, cu duo falli gloriatur conclusionemque.et sea, sed aperiri forensibus </p>
+    </div>
+
+
+
+    <div class="col-md-6">
+    <i class="fa fa-tree"></i>
+    <h4 class="grunt">Grunty</h4>
+      <p class="uslugi">est, sumo sanctus tibique te sea. Sint meis delenit sea ex. Ei mei illud ponderum, laudem ceteros iracundia cum cu. Sea ei vide augue postulant, sonet altera dolores ea ius. Id per sanctus inimicus mediocritatem, ut erant blandit repudiandae sed. Dicant aperiam vulputate et vix. Eum laoreet persecuti ad, viderer prodesset has at. No eam quis agam, quo omnis ridens ne, cu duo falli gloriatur conclusionemque.et sea, sed aperiri forensibus </p>
+
+    </div>
+  </div>
+</section>
+
+<section class="fourth" id="mapka">
+  
+<div id="map" style="width:100%;height:500px;background:transparent;"></div>
+
+
+</section>
+
+
+<section class="fifth">
+  <h2 class="text-center" id="kontakt">Kontakt</h2>
+  
+    
+
+<div class="container">
+  <div class="row">
+<div class="koniec">
+
+
+    <div class="col-md-6">
+    <i class="fa fa-inbox"></i>
+    <p class="tel">Ewa Rusztyn<br>ul.Leśna 28<br>+48 605 205 216</p>
+    </div>
+    <div class="col-md-6">
+    <i class="fa fa-mail-forward"></i>
+    <p class="tel">rusztyn@o2.pl </p>
+    </div>
+
+  </div>
+  </div>
+
+
+
+
+  </div>
+ 
+</section>
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    
+function myMap() {
+
+  var myLatLng = {lat: 51.252085, lng: 16.934006};
+
+  var mapOptions = {
+    center: myLatLng,
+    zoom: 13,
+    mapTypeId: google.maps.MapTypeId.HYBRID
+}
+
+
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+var marker = new google.maps.Marker({
+  position: myLatLng,
+  map:map,
+  title: 'Moje biuro'
+});
+
+}
+
+
+  </script>
+
+  
+
+
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVgVvgVsygMtJsyb9taJ0s8eRjSWBf18U
+&callback=myMap"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="scipt.js"></script>
+
+
+</body>
+</html>
